@@ -1,4 +1,4 @@
-# AI Joke Generator
+# 🤖 AI Joke Generator
 
 A simple Go program that generates jokes using the Gemini AI API.
 
@@ -20,15 +20,20 @@ A simple Go program that generates jokes using the Gemini AI API.
    ```bash
    export GEMINI_API_KEY='your-api-key-here'
    ```
+3. Install Gemini AI packages:
+   ```bash
+   go get github.com/google/generative-ai-go/genai
+   go get google.golang.org/api/option
+   ```
 
 ## Usage
 
-You can install in your environment:
+You can install in your terminal:
 ```bash
 go install ./...
 ```
 
-And then run it like:
+And then run it:
 ```bash
 ai-joke
 ```
