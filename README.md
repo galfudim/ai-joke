@@ -27,3 +27,8 @@ You can install in your environment:
 ```bash
 go install ./...
 ```
+
+And then run it like:
+```bash
+ai-joke
+```
