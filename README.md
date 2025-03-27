@@ -1,14 +1,12 @@
 # AI Joke Generator
 
-A simple Go program that generates jokes using the Gemini AI API. The program includes a nice terminal loading spinner while waiting for the API response.
+A simple Go program that generates jokes using the Gemini AI API.
 
 ## Features
 
 - Uses Google's Gemini AI API
 - Terminal loading spinner animation
 - Concurrent execution using goroutines
-- Graceful error handling
-- Clean and modern Go code structure
 
 ## Prerequisites
 
@@ -25,11 +23,7 @@ A simple Go program that generates jokes using the Gemini AI API. The program in
 
 ## Usage
 
-Run the program:
+You can install in your environment:
 ```bash
-go run main.go
+go install ./...
 ```
-
-## License
-
-MIT 
